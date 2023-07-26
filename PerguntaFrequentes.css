@@ -1,0 +1,419 @@
+body {
+    background-color: white;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+  
+  .fundo-menu{
+  
+    width: 100%;
+    height: 200px;
+    
+    }
+    
+    .Div-Logo{
+    
+        position: relative;
+        bottom: 173px;
+    
+    }
+    
+    .logo{
+    
+    width: 200px;
+    
+    }
+    
+    .nav-list{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 230px;
+    
+    
+    }
+    .nav-list ul{
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+    }
+  
+    .nav-bar{
+  
+      height: 255px;
+    }
+    
+    .nav-item{
+    
+    margin: 0 15px;
+    padding-left: 60px;
+    
+    }
+    
+    .nav-item li{
+    
+        color: white;
+    
+    }
+    
+    .nav-link{
+    
+    font-size: 18px;
+    font-weight: 500; 
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    }
+    
+    .botao-menu-mobile button{
+    
+    border: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 170px;
+    
+    }
+    
+    .botao-menu-mobile a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    
+    }
+    
+    .mobile-menu-icone{
+    
+    display: none;
+    
+    }
+    
+    .icone-mobile{
+    
+    width: 40px;
+    
+    }
+    
+    .menu-mobile{
+    
+    position: relative;
+    bottom: 320px;
+    
+    }
+    
+    .mobile-menu-icone{
+    
+    position: relative;
+    bottom: 380px;
+    left: 400px;
+    
+    }
+    .nav-item-mobile{
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+    }
+    
+    .botao-menu-mobile{
+    
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .nav-link-mobile{
+    
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-bottom: 9px;
+    
+    }
+    
+    .nav-link-mobile{
+    
+    color: white;
+    
+    }
+    
+    .mobile-menu-icone button{
+    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+    }
+    
+    .menu-mobile{
+    
+    display: none;
+    
+    }
+
+    @media screen and (max-width: 1000px){
+  
+
+        .nav-item{
+    
+          display: flex;
+          position: relative;
+          left: 110px;
+          margin-left: -30px;
+    
+    
+        }
+      }
+    
+    
+      @media screen and (max-width: 730px){
+      
+      
+          .Div-Logo{
+      
+              position: relative;
+              bottom: 385px;
+      
+          }
+          
+          .nav-item{
+              display: none;
+          }
+          .mobile-menu-icone{
+      
+              position: relative;
+              bottom: 455px;
+          }
+          .mobile-menu-icone{
+              display: block;
+          }
+          .menu-mobile{
+              position: relative;
+              bottom: 421px;
+      
+          }
+         .fundo-menu{
+          height: 400px;
+         }
+      
+         .open{
+      
+          display: block;
+          
+          }
+          
+      }
+
+      .text-container{
+
+        width: 50%;
+      }
+      .text-container h2{
+
+        font-family: sans-serif;
+      }
+      .text-container p{
+
+
+        font-family: sans-serif;
+        text-align: justify;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+      footer{
+        width: 100%;
+        position: absolute;
+        height: 190px;
+        
+      }
+      
+      .faixa-rodape{
+      
+      width: 100%;
+      height: 326px;
+      
+      
+      }
+      
+      #footer-element{
+      
+        display: flex;
+        position: relative;
+        bottom: 185px;
+        height: 170px;
+        right: 260px;
+      }
+      
+      .div-logo-rodape{
+      
+      position: relative;
+      bottom: 100px;
+      left: 300px;
+      
+      }
+      
+      .logo-rodape{
+      
+      width: 140px;
+      
+      }
+      
+      .lista-rodape{
+      
+      position: relative;
+      bottom: 35px;
+      left: 200px;
+      width: 200px;
+      
+      }
+      
+      .list-item{
+      
+      padding-bottom: 5px;
+      list-style: none;
+      
+      }
+      
+      .list-link{
+      
+      text-decoration: none;
+      color: white;
+      font-family: sans-serif;
+      line-height: 1.5 ;
+      
+      }
+      
+      .lista-rodape-criadores{
+      
+      position: relative;
+      bottom: 35px;
+      left: 230px;
+      width: 200px;
+      
+      }
+      
+      .list-item-criadores{
+      
+      list-style: none;
+      line-height: 1;
+      
+      
+      }
+      
+      .lista-nomes-rodape{
+      
+      color: white;
+      
+      }
+      
+      .titulos-rodape{
+      
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      
+      }
+      
+      
+      #email-rodapé{
+      
+      position: relative;
+      bottom: 35px;
+      left: 300px;
+      width: 200px;
+      
+      }
+      
+      .text-alguma-ajuda{
+      
+      color: white;
+      line-height: 1.5;
+      font-family: sans-serif;
+      }
+      
+      
+      #botao-rodape{
+      
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        border: none;
+        font-weight: 700;
+        padding: 4px;
+        width: 60px;
+        border-radius: 50%;
+        position: relative;
+        left: 48px;
+        
+      }
+      
+      @media screen and (max-width:768px) {
+        
+        #footer-element{
+      
+      position: relative;
+      right: 260px;
+      top: -483px;
+      height: 119px;
+      
+        }
+      
+        .faixa-rodape{
+      
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+      
+        }
+      
+        .lista-rodape{
+            height: 200px;
+        }
+      
+        .lista-rodape-criadores{
+      
+            height: 200px;
+      
+        }
+      
+        #email-rodapé{
+      
+           height: 200px;
+           position: relative;
+           top: 180px;
+           left: -30px;
+        }
+      
+        .faixa-rodape{
+      
+            height: 590px;
+        }
+      
+        .div-logo-rodape{  
+      
+        position: relative;
+        bottom: 106px;
+        left: 285px;
+        padding-top: 5px;
+      }
+        
+      }
+      
+      
